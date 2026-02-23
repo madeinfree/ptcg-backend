@@ -16,7 +16,7 @@ app.post("/api/simulate", async (req, res) => {
     searchCards,
     supporters,
     energyCards,
-    iterations = 100000,
+    iterations = 50000,
   } = req.body;
   const numCPUs = os.cpus().length;
 
